@@ -10,10 +10,11 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import NoMatch from "./pages/NoMatch";
 
+
 function App() {
   return (
     <Router>
-      <div>
+      <div id="app">
         <Navbar />
         <Wrapper>
           <Switch>
@@ -24,8 +25,8 @@ function App() {
             <Route path="*" component={NoMatch} />
           </Switch>
         </Wrapper>
+        <Footer />
       </div>
-      <Footer />
     </Router>
   );
 }

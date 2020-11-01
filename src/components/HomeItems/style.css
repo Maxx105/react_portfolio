@@ -7,3 +7,27 @@
 #greeting {
     text-align: center;
 }
+
+.social-image {
+    width: 40px;
+    height: 40px;
+}
+
+#about {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#social {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#underline {
+    text-decoration: underline;
+    text-decoration-color: rgb(90, 55, 218);
+}
+
+
+
+

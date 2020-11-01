@@ -3,7 +3,7 @@ import "./style.css";
 
 function Footer() {
     return (
-        <footer className="footer card copyright fixed-bottom">
+        <footer className="footer copyright page-footer">
             <span className="text-muted">©Copyright</span>
         </footer>
     );

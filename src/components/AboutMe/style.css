@@ -1,0 +1,41 @@
+#about-me-image {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.card {
+    margin: 20px;
+}
+
+#about {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+}
+
+#me {
+    color: rgba(169,98,235,1);
+}
+
+h3 {
+    font-family: 'Patrick Hand', cursive;
+}
+
+.skill {
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 10px;
+    background-color: lightgrey;
+    padding: 3px;
+    float: left;
+    margin: 5px;
+}
+
+.skill:hover {
+    background-color: grey;
+    border-color: grey;
+}
+
+
+
