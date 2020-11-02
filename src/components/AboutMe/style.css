@@ -4,6 +4,10 @@
     margin-right: 30px;
 }
 
+#color {
+    background-color: lightgrey;
+}
+
 .card {
     margin: 20px;
 }

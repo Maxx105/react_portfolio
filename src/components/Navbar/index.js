@@ -15,17 +15,17 @@ function Navbar() {
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
                         <Link className="nav-link" to="/about">
-                            about
+                            <span className="text-color">about</span>
                         </Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/portfolio">
-                            portfolio
+                        <span className="text-color">portfolio</span>
                         </Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/contact">
-                            contact
+                        <span className="text-color">contact</span>
                         </Link>
                     </li>
                 </ul>
