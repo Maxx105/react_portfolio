@@ -5,7 +5,7 @@ import "./style.css";
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <Link className="navbar-brand" to="/" id="name">
+            <Link className="navbar-brand" to="/react_portfolio/" id="name">
                 Maxx Sanner
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
