@@ -38,6 +38,12 @@ function Portfolio(props) {
         imageURL: "Assets/Images/foodio.JPG",
         appLink: "https://food-inventory-123.herokuapp.com/",
         githubLink: "https://github.com/Maxx105/food-inventory"
+    },
+    {
+        name: 'Employee Directory',
+        imageURL: "Assets/Images/employee_directory.JPG",
+        appLink: "https://maxx105.github.io/employee_directory/",
+        githubLink: "https://github.com/Maxx105/employee_directory"
     }
 ];
   return (

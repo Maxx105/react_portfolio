@@ -35,23 +35,7 @@ function Project(props) {
                         </div>
                     ))}
                 </div>
-            ))}
-            
-            
-                    {/* <div className="col-12-xs col-md-6">
-                        {projects.slice(secondColumn).map(project => (
-                            <div className="card shadow" key={project.name}>
-                                <img src={project.imageURL} className="card-img-top img-fluid img-height" alt={project.name} title={project.name}></img>
-                                <div className="card-body">
-                                    <p className="card-text portfolio_card_text"><a href={project.appLink} target="_blank" title="Password Generator" rel="noreferrer" class="project-text">{project.name}</a></p>
-                                    <hr></hr>
-                                    <p className="card-text portfolio_card_text portfolio_card_repo_text"><a href={project.githubLink} target="_blank" title="Github Repo" rel="noreferrer" class="project-text">Github Repo</a></p>
-                                </div>
-                            </div>
-                        ))}
-                    </div> */}
-                
-            
+            ))}            
         </div>
     );
 }

@@ -1,12 +1,12 @@
 import React from "react";
+import ContactInfo from "../../components/ContactInfo";
+import EmailForm from "../../components/EmailForm";
 
 function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-       CONTACT STUFF GOES HERE
-      </p>
+    <div className="row">
+      <EmailForm></EmailForm>
+      <ContactInfo></ContactInfo>
     </div>
   );
 }
