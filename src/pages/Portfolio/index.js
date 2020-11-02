@@ -2,7 +2,7 @@ import React from "react";
 import Project from "../../components/Project"
 
 function Portfolio(props) {
-  const imagePath = "./react_portfolio/Assets/Images/"
+  const imagePath = "./Assets/Images/"
   const projects = [
     {
         name: 'Password Generator',
