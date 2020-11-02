@@ -8,7 +8,7 @@ function HomeItems() {
             <div className = "row">
                 <div className="card-body">
                     <div id="image">
-                        <img src="Assets/Images/maxx.JPG" alt="Maxx Sanner" className="img-thumbnail rounded-circle" title="Maxx Sanner"></img>
+                        <img src="/Assets/Images/maxx.JPG" alt="Maxx Sanner" className="img-thumbnail rounded-circle" title="Maxx Sanner"></img>
                     </div>
                 </div>
             </div>
