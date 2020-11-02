@@ -4,7 +4,8 @@
     min-height: 100vh;
     background-size: auto;
     background-repeat: no-repeat; 
-    background-image: url(http://blog.hostbaby.com/wp-content/uploads/2013/07/scuffedstatic_dark_1920x1234.jpg);
+    background-image: url('http://blog.hostbaby.com/wp-content/uploads/2013/07/scuffedstatic_dark_1920x1234.jpg');
+    /* background-image: url('Assets/Images/bg.jpg'); */
     background-size: cover;
 }
 

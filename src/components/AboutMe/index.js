@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 function AboutMe() {
-  const skills = ['JavaScript', 'CSS', 'HTML', 'Bootstrap', 'React', 'JQuery', 'MySQL', 'MongoDB', 'Express', 'Handlebars', 'OOP', 'Node.js', 'Ajax', 'ES6', 'Git']
+  const skills = ['JavaScript', 'Lua', 'CSS', 'HTML', 'Bootstrap', 'React', 'JQuery', 'MySQL', 'MongoDB', 'Express', 'Handlebars', 'OOP', 'Node.js', 'Ajax', 'ES6', 'Git']
   return (
   <div className="row">
       <div className="col-md-9 col-sm-12">

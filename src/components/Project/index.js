@@ -5,10 +5,9 @@ function Project(props) {
     const { projects } = props
 
     //This logic creates row arrays, each consisting of two items so they can be mapped 2 items to a row. This also ensures that if there are an odd number of projects, one item can be added to a row without error.
-    let row = [];
     let column = []
     projects.forEach((project, i) => {
-        row = [];
+        let row = [];
         if (i % 2 === 0) {
             row.push(projects[i], projects[i+1])
             column.push(row);
@@ -24,7 +23,7 @@ function Project(props) {
                 <div className="row" key={index}>
                     {project.map(item => (
                         <div className="col-12-xs col-md-6" key={item.name}>
-                            <div className="card shadow">
+                            <div className="shadow card bg-light">
                                 <img src={item.imageURL} className="card-img-top" alt={item.name} title={item.name}></img>
                                 <div className="card-body">
                                     <p className="card-text portfolio_card_text"><a href={item.appLink} target="_blank" title="Password Generator" rel="noreferrer" class="project-text">{item.name}</a></p>
