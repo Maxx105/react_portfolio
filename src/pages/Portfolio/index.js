@@ -45,6 +45,12 @@ function Portfolio(props) {
         imageURL: `${imagePath}employee_directory.JPG`,
         appLink: "https://maxx105.github.io/employee_directory/",
         githubLink: "https://github.com/Maxx105/employee_directory"
+    },
+    {
+        name: 'Google Books Search',
+        imageURL: `${imagePath}google_books.JPG`,
+        appLink: "https://mern-books-maxx.herokuapp.com/",
+        githubLink: "https://github.com/Maxx105/google_books_search"
     }
 ];
   return (
