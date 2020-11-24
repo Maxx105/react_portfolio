@@ -1,4 +1,5 @@
 import React from "react";
+import maxx from "../../assets/maxx.JPG"
 import "./style.css";
 
 function AboutMe() {
@@ -11,7 +12,7 @@ function AboutMe() {
                 <h1 className="card-title" title="About Me"><span id="about">About</span> <span id='me'><strong>Me</strong></span></h1>
                 <hr></hr>
                 <div id="about-me-image">
-                  <img src="./Assets/Images/maxx.JPG" alt="Maxx Sanner" className="img-thumbnail shadow" title="Maxx Sanner"></img>
+                  <img src={maxx} alt="Maxx Sanner" className="img-thumbnail shadow" title="Maxx Sanner"></img>
                 </div>
                 <div id="about-me">
                   <h3>current work</h3>

@@ -1,54 +1,62 @@
 import React from "react";
 import Project from "../../components/Project"
+import passwordGenerator from "../../assets/generate_password.JPG";
+import codingQuiz from "../../assets/codequiz.JPG";
+import workDayPlanner from "../../assets/workdayscheduler.JPG";
+import weatherDashboard from "../../assets/weather_dashboard.JPG";
+import burgerLogger from "../../assets/burger_logger.JPG";
+import foodio from "../../assets/foodio.JPG";
+import employeeDirectory from "../../assets/employee_directory.JPG";
+import googleBooks from "../../assets/google_books.JPG";
 
 function Portfolio(props) {
   const imagePath = "./Assets/Images/"
   const projects = [
     {
         name: 'Password Generator',
-        imageURL: `${imagePath}generate_password.JPG`,
+        imageURL: passwordGenerator,
         appLink: "https://maxx105.github.io/password_generator/",
         githubLink: "https://github.com/Maxx105/password_generator"
     },
     {
         name: 'Coding Quiz',
-        imageURL: `${imagePath}codequiz.JPG`,
+        imageURL: codingQuiz,
         appLink: "https://maxx105.github.io/coding_quiz/",
         githubLink: "https://github.com/Maxx105/coding_quiz"
     },
     {
         name: 'Work Day Scheduler',
-        imageURL: `${imagePath}workdayscheduler.JPG`,
+        imageURL: workDayPlanner,
         appLink: "https://maxx105.github.io/work_day_planner/",
         githubLink: "https://github.com/Maxx105/work_day_planner"
     },
     {
         name: 'Weather Dashboard',
-        imageURL: `${imagePath}weather_dashboard.JPG`,
+        imageURL: weatherDashboard,
         appLink: "https://maxx105.github.io/weather_dashboard/",
         githubLink: "https://github.com/Maxx105/weather_dashboard"
     },
     {
         name: 'Burger Logger',
-        imageURL: `${imagePath}burger_logger.JPG`,
+        imageURL: burgerLogger,
         appLink: "https://maxx-burger-logger.herokuapp.com/",
         githubLink: "https://github.com/Maxx105/burger_logger"
     },
     {
         name: 'Food.io',
-        imageURL: `${imagePath}foodio.JPG`,
+        imageURL: foodio,
         appLink: "https://food-inventory-123.herokuapp.com/",
         githubLink: "https://github.com/Maxx105/food-inventory"
     },
     {
         name: 'Employee Directory',
-        imageURL: `${imagePath}employee_directory.JPG`,
+        imageURL: employeeDirectory,
         appLink: "https://maxx105.github.io/employee_directory/",
         githubLink: "https://github.com/Maxx105/employee_directory"
     },
     {
         name: 'Google Books Search',
-        imageURL: `${imagePath}google_books.JPG`,
+        imageURL: googleBooks,
         appLink: "https://mern-books-maxx.herokuapp.com/",
         githubLink: "https://github.com/Maxx105/google_books_search"
     }
