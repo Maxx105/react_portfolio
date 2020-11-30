@@ -8,6 +8,7 @@ import burgerLogger from "../../assets/burger_logger.JPG";
 import foodio from "../../assets/foodio.JPG";
 import employeeDirectory from "../../assets/employee_directory.JPG";
 import googleBooks from "../../assets/google_books.JPG";
+import oneMansTrash from "../../assets/one_mans_trash.JPG";
 
 function Portfolio(props) {
   const imagePath = "./Assets/Images/"
@@ -59,6 +60,12 @@ function Portfolio(props) {
         imageURL: googleBooks,
         appLink: "https://mern-books-maxx.herokuapp.com/",
         githubLink: "https://github.com/Maxx105/google_books_search"
+    },
+    {
+        name: "One Man's Trash",
+        imageURL: oneMansTrash,
+        appLink: "https://one-mans-trash.herokuapp.com/",
+        githubLink: "https://github.com/Maxx105/one_mans_trash"
     }
 ];
   return (
