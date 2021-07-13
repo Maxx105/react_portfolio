@@ -11,7 +11,7 @@ import googleBooks from "../../assets/google_books.JPG";
 import oneMansTrash from "../../assets/one_mans_trash.JPG";
 
 function Portfolio(props) {
-  const imagePath = "./Assets/Images/"
+//   const imagePath = "./Assets/Images/"
   const projects = [
     {
         name: 'Password Generator',

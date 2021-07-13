@@ -22,7 +22,7 @@ function AboutMe() {
                   <h3>skills</h3>
                   <div id="skills">
                     {skills.map(skill => (
-                      <p key={skill}><span class="skill">{skill}</span></p>
+                      <p key={skill}><span className="skill">{skill}</span></p>
                     ))}
                   </div>
                 </div>
