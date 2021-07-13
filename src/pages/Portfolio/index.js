@@ -9,6 +9,7 @@ import foodio from "../../assets/foodio.JPG";
 import employeeDirectory from "../../assets/employee_directory.JPG";
 import googleBooks from "../../assets/google_books.JPG";
 import oneMansTrash from "../../assets/one_mans_trash.JPG";
+import simon from "../../assets/simon.JPG";
 
 function Portfolio(props) {
 //   const imagePath = "./Assets/Images/"
@@ -66,6 +67,12 @@ function Portfolio(props) {
         imageURL: oneMansTrash,
         appLink: "https://one-mans-trash.herokuapp.com/",
         githubLink: "https://github.com/Maxx105/one_mans_trash"
+    },
+    {
+        name: "Simon",
+        imageURL: simon,
+        appLink: "https://maxx105.github.io/simon/",
+        githubLink: "https://github.com/Maxx105/simon"
     }
 ];
   return (

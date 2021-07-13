@@ -1,11 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./style.css";
 
 function Navbar() {
+    // console.log(useParams())
     return (
         <nav className="navbar navbar-expand-lg navbar-light">
-            <Link className="navbar-brand" to="/" id="name">
+            <Link className="navbar-brand glow" to="/" id="name">
                 Maxx Sanner
             </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,17 +16,17 @@ function Navbar() {
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
                         <Link className="nav-link" to="/about">
-                            <span className="text-color">about</span>
+                            <span className="text-color glow">about</span>
                         </Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/portfolio">
-                        <span className="text-color">portfolio</span>
+                        <span className="text-color glow">portfolio</span>
                         </Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/contact">
-                        <span className="text-color">contact</span>
+                        <span className="text-color glow">contact</span>
                         </Link>
                     </li>
                 </ul>
