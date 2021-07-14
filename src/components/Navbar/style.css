@@ -12,11 +12,6 @@
     /* font-family: 'Patrick Hand', cursive; */
 }
 
-
-
-/* .navbar {
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(169,98,235,1) 50%, rgba(0,212,255,1) 100%);
-} */
 .navbar {
     background: transparent;
 }
@@ -48,4 +43,6 @@
 .active {
     color: black;
 }
+
+
 
