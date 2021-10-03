@@ -35,8 +35,8 @@ function Portfolio(props) {
     {
         name: 'Weather Dashboard',
         imageURL: weatherDashboard,
-        appLink: "https://maxx105.github.io/weather_dashboard/",
-        githubLink: "https://github.com/Maxx105/weather_dashboard"
+        appLink: "https://maxx105.github.io/react_weather/",
+        githubLink: "https://github.com/Maxx105/react_weather"
     },
     {
         name: 'Burger Logger',
