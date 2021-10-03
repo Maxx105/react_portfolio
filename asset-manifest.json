@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.775fb546.chunk.css",
-    "main.js": "/react_portfolio/static/js/main.7c730646.chunk.js",
-    "main.js.map": "/react_portfolio/static/js/main.7c730646.chunk.js.map",
+    "main.js": "/react_portfolio/static/js/main.1a847054.chunk.js",
+    "main.js.map": "/react_portfolio/static/js/main.1a847054.chunk.js.map",
     "runtime-main.js": "/react_portfolio/static/js/runtime-main.a09f8fe9.js",
     "runtime-main.js.map": "/react_portfolio/static/js/runtime-main.a09f8fe9.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/react_portfolio/static/css/2.20aa2d7b.chunk.css",
@@ -22,7 +22,7 @@
     "static/media/maxx.acc6e87d.JPG": "/react_portfolio/static/media/maxx.acc6e87d.JPG",
     "static/media/one_mans_trash.7331dfcb.JPG": "/react_portfolio/static/media/one_mans_trash.7331dfcb.JPG",
     "static/media/simon.7c1c9fe2.JPG": "/react_portfolio/static/media/simon.7c1c9fe2.JPG",
-    "static/media/weather_dashboard.641207c9.JPG": "/react_portfolio/static/media/weather_dashboard.641207c9.JPG",
+    "static/media/weather_dashboard.b3168fbf.JPG": "/react_portfolio/static/media/weather_dashboard.b3168fbf.JPG",
     "static/media/workdayscheduler.94d26fdf.JPG": "/react_portfolio/static/media/workdayscheduler.94d26fdf.JPG"
   },
   "entrypoints": [
@@ -30,6 +30,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.3720b7f3.chunk.js",
     "static/css/main.775fb546.chunk.css",
-    "static/js/main.7c730646.chunk.js"
+    "static/js/main.1a847054.chunk.js"
   ]
 }
