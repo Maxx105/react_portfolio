@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.775fb546.chunk.css",
-    "main.js": "/react_portfolio/static/js/main.1a847054.chunk.js",
-    "main.js.map": "/react_portfolio/static/js/main.1a847054.chunk.js.map",
+    "main.js": "/react_portfolio/static/js/main.7f6be455.chunk.js",
+    "main.js.map": "/react_portfolio/static/js/main.7f6be455.chunk.js.map",
     "runtime-main.js": "/react_portfolio/static/js/runtime-main.a09f8fe9.js",
     "runtime-main.js.map": "/react_portfolio/static/js/runtime-main.a09f8fe9.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/react_portfolio/static/css/2.20aa2d7b.chunk.css",
@@ -15,6 +15,7 @@
     "static/media/style.css": "/react_portfolio/static/media/bg.d95ab712.jpg",
     "static/media/burger_logger.bc902caa.JPG": "/react_portfolio/static/media/burger_logger.bc902caa.JPG",
     "static/media/codequiz.c5ad041b.JPG": "/react_portfolio/static/media/codequiz.c5ad041b.JPG",
+    "static/media/daily_planner.677be1d3.JPG": "/react_portfolio/static/media/daily_planner.677be1d3.JPG",
     "static/media/employee_directory.c2b4aabb.JPG": "/react_portfolio/static/media/employee_directory.c2b4aabb.JPG",
     "static/media/foodio.c34e812e.JPG": "/react_portfolio/static/media/foodio.c34e812e.JPG",
     "static/media/generate_password.1fc236ff.JPG": "/react_portfolio/static/media/generate_password.1fc236ff.JPG",
@@ -30,6 +31,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.3720b7f3.chunk.js",
     "static/css/main.775fb546.chunk.css",
-    "static/js/main.1a847054.chunk.js"
+    "static/js/main.7f6be455.chunk.js"
   ]
 }
