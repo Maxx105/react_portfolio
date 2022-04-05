@@ -28,7 +28,7 @@ function AboutMe() {
                 </div>
                 <div style={{clear: 'both'}}>
                   <hr></hr>
-                  <p style={{textAlign: "center"}}>Click <a href="Assets/resume.pdf" target="_blank" title="resume">here</a> to view my current resume!</p>
+                  {/* <p style={{textAlign: "center"}}>Click <a href="Assets/resume.pdf" target="_blank" title="resume">here</a> to view my current resume!</p> */}
                 </div>
               </div>
           </div>

@@ -12,7 +12,7 @@ function ContactInfo() {
                 <a href="mailto:maxxsanner105@gmail.com">maxxsanner105@gmail.com</a>
                 <hr></hr>
                 <h3 className="contact_details">Phone</h3>
-                <p>(661) 917-5530</p>
+                <p>(***) ***-****</p>
                 <hr></hr>
                 <a href="https://github.com/Maxx105" target="_blank" rel="noreferrer"><img src={github} alt="github" class="social-icons"></img></a>{' '}
                 <a href="https://www.linkedin.com/in/maxx-sanner-49247b169" target="_blank" rel="noreferrer"><img src={linkedin} alt="LinkedIn" class="social-icons"></img></a>
